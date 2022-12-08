@@ -1,21 +1,16 @@
-# pre-onboarding-7th-3-2-2
+# B2C 투자 관리 서비스의 관리자 기능 구현
 
-# Week 3-2. 투자 관리 서비스의 관리자 기능 구현
+## 실행결과
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/99943583/202637983-13ef1bcf-9464-439f-aa4c-04dcecc3a78d.gif)
 
-<br />
 
-1. [팀 소개 👫](#1-팀-소개-)
-2. [프로젝트 소개 🚀](#2-프로젝트-소개-)
-3. [기술 스택 🛠](#3-기술-스택-)
-4. [구현 기능 📍](#4-구현-기능-)
-5. [Best Practice 선정과정👩‍👦‍👦](#6-best-practice-선정과정)
-6. [프로젝트 설치 및 실행 ✨](#7-프로젝트-설치-및-실행-)
+#### STACK
+<img src="https://img.shields.io/badge/JavaScript-FFCA28?style=flat-square&logo=javascript&logoColor=white"/> <img src="https://img.shields.io/badge/React.js-58c3cc?style=flat-square&logo=React&logoColor=white"/> <img alt="SASS" src ="https://img.shields.io/badge/SASS-CC6699.svg?&style=flat-square&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/aws(EC2)-F6BB43?style=flat-square&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/fontawesome-339AF0?style=for-flat-square&logo=fontawesome&logoColor=white">
 
-<br />
 
-## 1. 팀 소개 👫
+## 팀 소개
 
 - [이빛나 (팀장)](https://github.com/bitnaleeeee)
 - [모상빈](https://github.com/Topbin2)
@@ -27,35 +22,58 @@
 
 <br />
 
-## 2. 프로젝트 소개 🚀
+## 프로젝트 소개 
 
-- 개요 : 원티드 프론트엔드 프리온보딩 7기 2팀 과제 3-2 중 Best Practice
-- 주제 : 투자 관리 서비스의 관리자 기능 구현
+- 목표 : 투자 관리 서비스의 관리자 기능 구현
 - 기간 : 2022.11.12 ~ 2022.11.18
+- 주관 : 원티드 
+
+
+## 폴더 구조 
+
+```
+📦 src
+├── 📂 pages
+│   ├──📜 Login
+│   │  ├── Login.js
+│   │  ├── Login.scss
+│   │  └── Logout.js
+│   │
+│   └──📜 Main
+│      ├── Main.js
+│      ├── Main.scss
+│      ├── User.js
+│      ├── User.scss
+│      └── UserList.js
+│
+├── 📂 views
+│   ├──📜 data
+│   │  ├── brokers.json
+│   │  └── numberStatus.json
+│   │
+│   ├── DataTable.js
+│   ├── DataTable.scss
+│   ├── DenseTable.js
+│   ├── Slider.js
+│   ├── Slider.scss
+│   └── UserDataTable.jss
+│
+├── common.scss
+├── index.js
+└── Router.js
+```
+## 구현 사항
+
+- [x] 계좌목록 데이터 조회 기능 구현
+- [x] 페이지네이션 기능 구현
+- [x] 계좌 목록 사용자 이름 클릭시 사용자 정보 조회
+- [x] 사용자상세 데이터 조회
+- [x] 사용자상세 페이지네이션
+- [x] 로그인, 로그아웃
 
 <br />
 
-## 3. 기술 스택 🛠
-
-- Javascript
-- React
-- Mui
-
-<br />
-
-## 4. 구현 기능 📍
-
-- 구현사항
-  - 로그인, 로그아웃 기능 구현
-  - 계좌목록 데이터 조회 기능 구현
-  - 계좌목록 페이지네이션 기능 구현
-  - 계좌 목록 사용자 이름 클릭시 사용자 정보 조회 기능 구현
-  - 사용자상세 데이터 조회 기능 구현
-  - 사용자상세 페이지네이션 기능 구현
-
-<br />
-
-## 6. Best Practice 선정과정👩‍👦‍👦
+## 주요 기능
 
 ### json-server 을 활용 전체 데이터 조회 기능 구현
 
@@ -103,22 +121,20 @@ useEffect(() => {
 
 <br>
 
-## 7. 프로젝트 설치 및 실행 ✨
+
+## 프로젝트 설치 및 실행
 
 <br/>
 
 1. Git Clone
-
 ```plaintext
-$ git clone https://github.com/pre-onboading-2team/pre-onboarding-7th-3-2-2.git
+$ git clone https://github.com/pre-onboading-2team/Week1_2_Issue_List.git
 ```
 
 2. 프로젝트 패키지 설치
-
 ```plaintext
 $ npm install
 ```
-
 3. 프로젝트 실행
 
 ```plaintext
@@ -130,7 +146,7 @@ $ npm start
 ### Server 실행 방법
 
 /src/server 에 서버 폴더가 존재합니다
-(cors이슈 해결방안으로 서버코드 수정한 상태입니다.)
+* 디셈버앤컴퍼니 백엔드 데이터에 cors이슈가 있어, 해결방안으로 서버코드를 수정하였습니다.
 
 1. 관련 패키지 설치
 
