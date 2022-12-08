@@ -21,7 +21,6 @@
 - [조성호](https://github.com/CSH111)
 - [전대원](https://github.com/eodnjs467)
 
-<br />
 
 ## 프로젝트 소개 
 
@@ -136,7 +135,7 @@ $ git clone https://github.com/pre-onboading-2team/Week1_2_Issue_List.git
 ```plaintext
 $ npm install
 ```
-3. 프로젝트 실행
+3. 실행
 
 ```plaintext
 $ npm start
