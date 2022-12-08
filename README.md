@@ -4,6 +4,7 @@
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/99943583/202637983-13ef1bcf-9464-439f-aa4c-04dcecc3a78d.gif)
 
+> 팀 프로젝트의 베스트 Practice로 선정되었습니다.
 
 #### STACK
 <img src="https://img.shields.io/badge/JavaScript-FFCA28?style=flat-square&logo=javascript&logoColor=white"/> <img src="https://img.shields.io/badge/React.js-58c3cc?style=flat-square&logo=React&logoColor=white"/> <img alt="SASS" src ="https://img.shields.io/badge/SASS-CC6699.svg?&style=flat-square&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/aws(EC2)-F6BB43?style=flat-square&logo=amazonaws&logoColor=white"/>
