@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/investment-management/static/css/main.170dcf42.css",
-    "main.js": "/investment-management/static/js/main.d0706088.js",
+    "main.js": "/investment-management/static/js/main.a019a831.js",
     "index.html": "/investment-management/index.html",
     "main.170dcf42.css.map": "/investment-management/static/css/main.170dcf42.css.map",
-    "main.d0706088.js.map": "/investment-management/static/js/main.d0706088.js.map"
+    "main.a019a831.js.map": "/investment-management/static/js/main.a019a831.js.map"
   },
   "entrypoints": [
     "static/css/main.170dcf42.css",
-    "static/js/main.d0706088.js"
+    "static/js/main.a019a831.js"
   ]
 }
