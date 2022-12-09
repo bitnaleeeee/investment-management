@@ -55,6 +55,7 @@
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
   },
   "homepage": "https://bitnaleeeee.github.io/investment-management"
