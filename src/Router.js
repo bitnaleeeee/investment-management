@@ -9,10 +9,13 @@ function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/account" element={<Main />} />
-        <Route path="/account/user/:userid" element={<User />} />
-        <Route path="/userlist" element={<UserList />} />
+        <Route path="/investment-management" element={<Login />} />
+        <Route path="/investment-management/account" element={<Main />} />
+        <Route
+          path="/investment-management/account/user/:userid"
+          element={<User />}
+        />
+        <Route path="/investment-management/userlist" element={<UserList />} />
       </Routes>
     </BrowserRouter>
   );
