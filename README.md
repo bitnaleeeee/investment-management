@@ -1,5 +1,7 @@
 # B2C 투자 관리 서비스의 관리자 기능 구현
 
+- ## 배포 링크 : [https://bitnaleeeee.github.io/investment-management/](https://bitnaleeeee.github.io/investment-management/)
+
 ## 실행결과
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/99943583/202637983-13ef1bcf-9464-439f-aa4c-04dcecc3a78d.gif)
@@ -7,9 +9,9 @@
 > 팀 프로젝트의 베스트 Practice로 선정되었습니다.
 
 #### STACK
+
 <img src="https://img.shields.io/badge/JavaScript-FFCA28?style=flat-square&logo=javascript&logoColor=white"/> <img src="https://img.shields.io/badge/React.js-58c3cc?style=flat-square&logo=React&logoColor=white"/> <img alt="SASS" src ="https://img.shields.io/badge/SASS-CC6699.svg?&style=flat-square&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/aws(EC2)-F6BB43?style=flat-square&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/fontawesome-339AF0?style=for-flat-square&logo=fontawesome&logoColor=white">
-
 
 ## 팀 소개
 
@@ -21,15 +23,13 @@
 - [조성호](https://github.com/CSH111)
 - [전대원](https://github.com/eodnjs467)
 
-
-## 프로젝트 소개 
+## 프로젝트 소개
 
 - 목표 : 투자 관리 서비스의 관리자 기능 구현
 - 기간 : 2022.11.12 ~ 2022.11.18
-- 주관 : 원티드 
+- 주관 : 원티드
 
-
-## 폴더 구조 
+## 폴더 구조
 
 ```
 📦 src
@@ -62,6 +62,7 @@
 ├── index.js
 └── Router.js
 ```
+
 ## 구현 사항
 
 - [x] 계좌목록 데이터 조회 기능 구현
@@ -121,20 +122,22 @@ useEffect(() => {
 
 <br>
 
-
 ## 프로젝트 설치 및 실행
 
 <br/>
 
 1. Git Clone
+
 ```plaintext
 $ git clone https://github.com/pre-onboading-2team/Week1_2_Issue_List.git
 ```
 
 2. 프로젝트 패키지 설치
+
 ```plaintext
 $ npm install
 ```
+
 3. 실행
 
 ```plaintext
@@ -144,7 +147,8 @@ $ npm start
 <br/>
 
 ### Server 실행 방법
-* 디셈버앤컴퍼니 백엔드 데이터에 cors이슈가 있어, 해결방안으로 서버코드를 수정하였습니다.
+
+- 디셈버앤컴퍼니 백엔드 데이터에 cors이슈가 있어, 해결방안으로 서버코드를 수정하였습니다.
 
 1. 관련 패키지 설치
 
